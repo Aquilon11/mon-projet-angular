@@ -15,6 +15,7 @@ export class AppareilComponent implements OnInit {
   index: number
   @Input()
   id: number
+  authStatus: boolean
 
   constructor(private appareilService: AppareilService) {}
 
